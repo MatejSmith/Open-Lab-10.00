@@ -9,12 +9,12 @@ namespace Open_Lab_10._00
             Book LOTR = new Book();
 
             LOTR.Title = "Popol všetkých zarovná";
-            LOTR.Pages = 401;
+            LOTR.Pages = 240;
             LOTR.Category = "Detektívny román";
             LOTR.Author = "Dominik Dán";
             LOTR.ReleaseDate = 2005;
 
-            LOTR.VypisUdaje();
+            Console.WriteLine(LOTR);
             Console.ReadKey();
         }
     }

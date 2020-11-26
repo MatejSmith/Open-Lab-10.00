@@ -11,6 +11,7 @@ namespace Open_Lab_10._00
         private string category;
         private string author;
         private int releaseDate;
+        public string newLine = Environment.NewLine;
 
         public string Title
         {
@@ -32,7 +33,14 @@ namespace Open_Lab_10._00
             }
             set
             {
-                pages = value;
+                if (value > 0)
+                {
+                    pages = value;
+                }
+                else
+                {
+                    pages = 1;
+                }
             }
         }
 
@@ -68,12 +76,20 @@ namespace Open_Lab_10._00
             }
             set
             {
-                releaseDate = value;
+                if (value < 2021 && value > 1450)
+                {
+                    releaseDate = value;
+                }
+                else
+                {
+                    releaseDate = -1;
+                }
+
             }
         }
-        public void VypisUdaje()
+        public override string ToString()
         {
-            Console.WriteLine("Title: {0}\nPages: {1}\nCategory: {2}\nAuthor: {3}\nRelease date: {4}", Title, Pages, Category, Author, ReleaseDate);
+            return "Nazov: " + Title + newLine + "Pocet stran: " + Pages + newLine + "Zaner: " + Category + newLine + "Autor: " + Author + newLine + "Datum vydania: " + ReleaseDate;
         }
 
         
