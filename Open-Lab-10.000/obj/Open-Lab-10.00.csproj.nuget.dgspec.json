@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Matej\\Desktop\\dasf\\Open-Lab-10.000\\Open-Lab-10.00.csproj": {}
+    "D:\\School\\OpenLab\\dasf\\Open-Lab-10.000\\Open-Lab-10.00.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Matej\\Desktop\\dasf\\Open-Lab-10.000\\Open-Lab-10.00.csproj": {
+    "D:\\School\\OpenLab\\dasf\\Open-Lab-10.000\\Open-Lab-10.00.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Matej\\Desktop\\dasf\\Open-Lab-10.000\\Open-Lab-10.00.csproj",
+        "projectUniqueName": "D:\\School\\OpenLab\\dasf\\Open-Lab-10.000\\Open-Lab-10.00.csproj",
         "projectName": "Open-Lab-10.00",
-        "projectPath": "C:\\Users\\Matej\\Desktop\\dasf\\Open-Lab-10.000\\Open-Lab-10.00.csproj",
+        "projectPath": "D:\\School\\OpenLab\\dasf\\Open-Lab-10.000\\Open-Lab-10.00.csproj",
         "packagesPath": "C:\\Users\\Matej\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Matej\\Desktop\\dasf\\Open-Lab-10.000\\obj\\",
+        "outputPath": "D:\\School\\OpenLab\\dasf\\Open-Lab-10.000\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Matej\\AppData\\Roaming\\NuGet\\NuGet.Config",
