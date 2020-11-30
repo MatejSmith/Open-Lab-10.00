@@ -116,9 +116,7 @@ namespace Open_Lab_10._00
         }
         public override string ToString()
         {
-            return "Nazov: " + Title + newLine + "Pocet stran: " + Pages + newLine + "Zaner: " + Category + newLine + "Autor: " + Author + newLine + "Datum vydania: " + ReleaseDate;
+            return "Nazov: " + title + newLine + "Pocet stran: " + pages + newLine + "Zaner: " + category + newLine + "Autor: " + author + newLine + "Datum vydania: " + releaseDate;
         }
-
-        
     }
 }
