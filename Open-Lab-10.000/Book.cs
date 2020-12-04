@@ -12,9 +12,19 @@ namespace Open_Lab_10._00
         private string author;
         private int releaseDate;
         public string newLine = Environment.NewLine;
+        /// <summary>
+        /// vytvorili sme list a pridali sme don kategorie
+        /// </summary>
+        public static List<string> categoryList = new List<string>();
 
         public Book()
         {
+            categoryList.Add("detské");
+            categoryList.Add("romantické");
+            categoryList.Add("náučné");
+            categoryList.Add("sci-fi");
+            categoryList.Add("dobrodružné");
+            categoryList.Add("detektívka");
             title = "-1";
             pages = -1;
             category = "-1";
@@ -73,10 +83,6 @@ namespace Open_Lab_10._00
 
         public string Category
         {
-            get
-            {
-                return category;
-            }
             set
             {
                 category = value;
